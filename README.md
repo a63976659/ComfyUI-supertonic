@@ -3,7 +3,7 @@
 
   使用说明：
   在运行示例之前，请下载ONNX模型和预设声音，并将它们放在`assets`目录中
-  在 `ComfyUI\custom_nodes\ComfyUI-supertonic` 目录中 `cmd` 输入 `hf download Supertone/supertonic --local-dir 你的comfyui地址\custom_nodes\supertonic\assets` 
+  在 `ComfyUI\custom_nodes\ComfyUI-supertonic` 目录中 `cmd` 输入 `hf download Supertone/supertonic --local-dir 你的comfyui地址\custom_nodes\ComfyUI-supertonic\assets` 
   或者 手动下载 https://huggingface.co/Supertone/supertonic/ 所有文件到`ComfyUI\custom_nodes\ComfyUI-supertonic\assets`目录中
 
 
