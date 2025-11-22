@@ -105,7 +105,7 @@ class SupertonicTTS:
     RETURN_TYPES = ("AUDIO",)
     RETURN_NAMES = ("音频输出",)
     FUNCTION = "generate_speech"
-    CATEGORY = "🎵音频/语音合成"
+    CATEGORY = "🎙️ Supertonic 语音合成/语音合成"
     
     def generate_speech(self, 输入文本, 音色选择, 推理步数, 语速倍数, 句间停顿, 使用GPU=False, 输出采样率="44100 Hz (原始)", 分句策略="标准（。！？）"):
         """使用 Supertonic TTS 生成语音"""
@@ -295,7 +295,7 @@ class SupertonicBatchTTS:
     RETURN_TYPES = ("AUDIO",)
     RETURN_NAMES = ("音频列表",)
     FUNCTION = "generate_batch_speech"
-    CATEGORY = "🎵音频/语音合成"
+    CATEGORY = "🎙️ Supertonic 语音合成/语音合成"
     OUTPUT_IS_LIST = (True,)
     
     def generate_batch_speech(self, 文本1, 音色1, 推理步数, 语速倍数, 
